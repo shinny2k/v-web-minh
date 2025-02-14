@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    background-color: #ffaad4; /* Light Pink */
+    font-family: 'Bubblegum Sans', cursive; /* Cute Bubble Font */
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container - Centers Everything */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading */
+h1 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Heart Animation */
+.heart {
+    font-size: 60px;
+    cursor: pointer;
+    animation: bounce 1s infinite;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Message Box */
+#message {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 22px;
+    color: #ff1493;
+    display: none;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff1493;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 20px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff69b4;
+}
