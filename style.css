@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    background-color: #ffaad4; /* Light Pink */
+    background-color: #ff6f9c; /* Darker Pink for Better Readability */
     font-family: 'Bubblegum Sans', cursive; /* Cute Bubble Font */
     text-align: center;
     margin: 0;
@@ -20,13 +20,13 @@ body {
 /* Heading */
 h1 {
     color: white;
-    font-size: 28px;
+    font-size: 36px; /* Bigger Text */
     margin-bottom: 20px;
 }
 
 /* Heart Animation */
 .heart {
-    font-size: 60px;
+    font-size: 80px; /* Bigger Heart */
     cursor: pointer;
     animation: bounce 1s infinite;
 }
@@ -44,10 +44,10 @@ h1 {
 /* Message Box */
 #message {
     background-color: white;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 15px;
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 28px; /* Bigger Text */
     color: #ff1493;
     display: none;
 }
@@ -58,13 +58,13 @@ h1 {
     text-decoration: none;
     background-color: #ff1493;
     color: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    margin-top: 10px;
-    font-size: 20px;
+    padding: 12px 25px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 24px; /* Bigger Button Text */
     transition: background 0.3s;
 }
 
 .btn:hover {
-    background-color: #ff69b4;
+    background-color: #ff4081;
 }
